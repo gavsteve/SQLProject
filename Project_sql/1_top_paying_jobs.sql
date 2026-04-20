@@ -13,9 +13,11 @@ WITH Midwest_Data_Analyst_Jobs AS (
         job_schedule_type,
         salary_year_avg,
         job_posted_date,
-        company_id
+        company_dim.name
     FROM
         job_postings_fact
+    LEFT JOIN
+        company_dim ON job_postings_fact.company_id = company_dim.company_id
     WHERE
         job_title LIKE '%Data Analyst%' AND
         (job_location LIKE '%OH%' OR
@@ -25,6 +27,7 @@ WITH Midwest_Data_Analyst_Jobs AS (
 )
 SELECT  
     job_id,
+    name,
     job_title,
     job_location,
     job_schedule_type,
