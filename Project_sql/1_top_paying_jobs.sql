@@ -35,7 +35,8 @@ SELECT
     job_posted_date
 FROM
     Midwest_Data_Analyst_Jobs
-ORDER BY
+ORDER BY 
     salary_year_avg DESC
 LIMIT 10;
  
+
