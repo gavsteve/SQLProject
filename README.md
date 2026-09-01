@@ -1,1 +1,3 @@
 This project demonstrates advanced SQL-based data analysis performed on multiple datasets containing job location information. It involves complex querying techniques including joins, aggregations, subqueries, CTE's, and data filtering to uncover patterns in geographic job distribution. The analysis focuses on extracting actionable insights related to regional demand and workforce trends. As a current college student preparing to enter the workforce, this project highlights my ability to leverage SQL for data exploration, transformation, and insight generation in real-world datasets.
+
+Additionally, I have added a built from scratch from 3 Statement Model of a fake company, showing my ability to model companies and use Excel.
